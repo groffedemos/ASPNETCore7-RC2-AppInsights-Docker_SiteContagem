@@ -8,7 +8,7 @@ on:
 
 env:
   IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/sitecontagem-ceunsp
-  DIR_WEBAPP: './'
+  DIR_WEBAPP: './SiteContagem'
   
 jobs:
 
